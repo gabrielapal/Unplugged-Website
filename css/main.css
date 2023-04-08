@@ -87,6 +87,140 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* General Styles */
+ 
+html {
+	font-size: 16px;
+}
+ 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+/****** Header Styles ******/
+
+header .content-wrapper {
+  background: #202322;
+  background-size: cover;
+}
+
+header .content-wrapper .header-logo {
+  height: 150px;
+}
+
+.header.divider {
+  background: #3a3a3a;
+}
+
+ul, 
+ol {
+ list-style-type: none;
+}
+
+/****** Main Styles ******/
+
+.hero-area {
+  background: url(../unplugged-design-docs/unplugged-retreat.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+.hero-area .content-wrapper h1 {
+  color: #e2e3ed;
+  font-size: 3.75em;
+}
+
+/****** Aside Styles ******/
+
+aside .content-wrapper {
+  background: #527158;
+  background-size: cover;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+  color: #e2e3ed;
+}
+
+.features {
+  background: url(../unplugged-design-docs/unplugged-retreat-features.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+
+.features h2 {
+  color: #e2e3ed;
+}
+
+.features p {
+  color: #e2e3ed;
+}
+
+.reviews .content-wrapper {
+  background: #2a423a;
+  background-size: cover;
+  color: #e2e3ed;
+}
+
+.mission .content-wrapper h2 {
+  font-size: 3em;
+}
+
+.faq .content-wrapper h2 {
+  font-size: 3em;
+}
+
+/****** Footer Styles ******/
+
+footer .content-wrapper {
+  background: #202322;
+  background-size: cover;
+  color: #e2e3ed;
+}
+
+a {
+	color: #e2e3ed;
+  text-decoration: none;
+
+}
+ 
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+}
+
+h3, 
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125em;
+}
+ 
+p {
+	font-size: .875em;
+  line-height: 1.285em;
+}
+ 
+img {
+ 
+}
+ 
+figure {
+ 
+}
+ 
+address {
+ font-style: normal;
+}
+ 
+.content-wrapper {
+ width: 90%;
+ margin: 50px 0;
+}
+
 /* -------------------- Base Header - Footer Styles -------------------- */
 header,
 footer {
@@ -537,6 +671,8 @@ faq content {
     width: 42%;
 }
 
+}
+
 /* ==========================================================================
 About Page
 ========================================================================== */
@@ -554,7 +690,7 @@ FAQ Page
    width: 100%;
 }
 
-}
+
   
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
