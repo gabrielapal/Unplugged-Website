@@ -332,13 +332,6 @@ input[type=button] {
   background-position: center;
 }
 
-.features .features-items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
 .features h2 {
   margin-bottom: 60px;
 }
@@ -346,6 +339,18 @@ input[type=button] {
 .features article {
   width: 63%;
   margin: 30px 0;
+}
+
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.features i {
+	font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 .features p {
