@@ -623,7 +623,7 @@ faq .content h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column-wrap;
+    flex-flow: column wrap;
     flex-basis: 50%;
   }
 
