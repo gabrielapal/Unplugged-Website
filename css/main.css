@@ -119,6 +119,7 @@ ul,
 ol {
   list-style-type: none;
   margin: 0;
+  padding: 0;
 }
 
 a {
@@ -441,11 +442,11 @@ input[type=button] {
   line-height: 1;
 }
 
-faq content {
+.faq-content {
   margin-bottom: 50px;
 }
 
-faq .content h4 {
+.faq-content h4 {
   line-height: 1.333;
 }
 
@@ -630,6 +631,10 @@ faq .content h4 {
     width: 62%;
   }
 
+  .features i {
+    margin-bottom: 30px;
+  }
+
   /* Reviews */
 
   .reviews article {
@@ -716,7 +721,7 @@ faq .content h4 {
     align-items: flex-start;
   }
 
-  .contact .content h4 {
+  .contact-content h4 {
     font-size: 1.5em;
   }
 
@@ -743,7 +748,7 @@ faq .content h4 {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width:1200px) {
   /*Desktop styles here */  
 
   header {
@@ -772,7 +777,7 @@ faq .content h4 {
 
   .hero-area h1 {
     font-size: 3.75em;
-    width: 60%;
+    width: 80%;
 }
 
   /* Aside */
@@ -836,11 +841,11 @@ FAQ Page
 ========================================================================== */
 
 .faq h2 {
-   width: 100%;
-   font-size: 3em;
+  width: 100%;
+  font-size: 3em;
 }
 
-.faq h4 
+.faq h4, 
 .faq p {
   font-size: 1.125em;
   line-height: 1;
