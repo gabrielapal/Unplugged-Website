@@ -12,7 +12,7 @@ Website design provided by Skillcrush, responsible for translating design into c
 - CSS
 - Flexbox
 
-[**Live Project Here**]
+[**Live Project Here**](https://gabrielapal.github.io/Unplugged-Website/)
 
 ![image](https://github.com/gabrielapal/Unplugged-Website/assets/127886470/4fba01e8-1416-4a7f-bbdf-408bc00cb115)
 
